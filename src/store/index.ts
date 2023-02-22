@@ -1,8 +1,8 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
-import { dogsReducer } from "./features/dogs/dogsSlice";
+import { dogReducer } from "./features/dogs/dogsSlice";
 
 export const store = configureStore({
-  reducer: { dogs: dogsReducer },
+  reducer: { dog: dogReducer },
 });
 
 export type AppDispatch = typeof store.dispatch;

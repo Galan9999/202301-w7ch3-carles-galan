@@ -1,5 +1,11 @@
+import Dog from "../Dog/Dog";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Dog />
+    </>
+  );
 };
 
 export default App;

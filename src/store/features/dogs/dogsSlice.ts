@@ -1,17 +1,19 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { DogsStructure } from "../../../types";
+import { DogStructure } from "../../../types";
 
-const initialDogs: DogsStructure = [];
+const initialDog: DogStructure = {
+  message: "",
+  status: "",
+};
 
-export const dogsSlice = createSlice({
-  name: "dogs",
-  initialState: initialDogs,
+export const dogSlice = createSlice({
+  name: "dog",
+  initialState: initialDog,
   reducers: {
-    loadDogs: (currentDogs, action: PayloadAction<DogsStructure>) => [
-      ...action.payload,
-    ],
+    loadDog: (currentDog, action: PayloadAction<DogStructure>) =>
+      action.payload,
   },
 });
 
-export const dogsReducer = dogsSlice.reducer;
-export const { loadDogs: loadDogsActionCreator } = dogsSlice.actions;
+export const dogReducer = dogSlice.reducer;
+export const { loadDog: loadDogActionCreator } = dogSlice.actions;
