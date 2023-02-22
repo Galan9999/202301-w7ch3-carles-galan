@@ -10,6 +10,7 @@ body {
   padding: 50px;
   background-color: #fff;
   font-family: monospace;
+  font-size: 60px;
   width: 100%;
   min-height: 100vh;
   
