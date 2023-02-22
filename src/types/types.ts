@@ -2,7 +2,7 @@ export interface RobotStructure {
   id: string;
   name: string;
   url: string;
-  stats: {
+  specs: {
     speed: number;
     endurance: number;
     creationDate: string;

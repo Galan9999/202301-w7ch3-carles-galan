@@ -15,10 +15,10 @@ const Form = (): JSX.Element => {
     event?.preventDefault();
 
     const newRobot = {
-      name,
-      url,
+      name: "",
+      url: "",
       id: "",
-      stats: { speed, endurance, creationDate },
+      specs: { speed, endurance, creationDate },
     };
 
     createRobot(newRobot);

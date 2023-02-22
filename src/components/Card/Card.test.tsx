@@ -7,7 +7,7 @@ const terminatorRobot: RobotStructure = {
   id: "",
   name: "Terminator",
   url: "",
-  stats: {
+  specs: {
     speed: 1,
     endurance: 1,
     creationDate: "",

@@ -8,7 +8,7 @@ describe("Given a RemoveButton component", () => {
     id: "",
     name: "",
     url: "",
-    stats: {
+    specs: {
       speed: 5,
       endurance: 4,
       creationDate: "",

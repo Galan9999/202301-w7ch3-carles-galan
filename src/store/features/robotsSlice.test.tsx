@@ -11,7 +11,7 @@ describe("Given a robots reducer", () => {
     id: "456456",
     name: "Róman",
     url: "url",
-    stats: {
+    specs: {
       speed: 5,
       endurance: 5,
       creationDate: "",
@@ -21,7 +21,7 @@ describe("Given a robots reducer", () => {
     id: "98843ry",
     name: "Marc",
     url: "url",
-    stats: {
+    specs: {
       speed: 5,
       endurance: 5,
       creationDate: "",

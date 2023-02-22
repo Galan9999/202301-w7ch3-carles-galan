@@ -7,7 +7,7 @@ interface CardProps {
 }
 
 const Card = ({ robot }: CardProps): JSX.Element => {
-  const localDateFormat = robot.stats.creationDate
+  const localDateFormat = robot.specs.creationDate
     .toLocaleString()
     .split("T")[0];
 
@@ -24,8 +24,8 @@ const Card = ({ robot }: CardProps): JSX.Element => {
         <h2 className="card-title">{robot.name}</h2>
       </div>
       <ul className="list-group list-group-flush">
-        <li className="list-group-item">Speed: {robot.stats.speed}</li>
-        <li className="list-group-item">Endurance: {robot.stats.endurance}</li>
+        <li className="list-group-item">Speed: {robot.specs.speed}</li>
+        <li className="list-group-item">Endurance: {robot.specs.endurance}</li>
         <li className="list-group-item">Creation: {localDateFormat}</li>
       </ul>
       <div className="card-body card__buttons buttons">

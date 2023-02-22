@@ -62,9 +62,9 @@ const useApi = () => {
             name: robot.name,
             url: robot.url,
             stats: {
-              speed: robot.stats.speed,
-              endurance: robot.stats.endurance,
-              creationDate: robot.stats.creationDate,
+              speed: robot.specs.speed,
+              endurance: robot.specs.endurance,
+              creationDate: robot.specs.creationDate,
             },
           }),
           headers: {
