@@ -9,7 +9,7 @@ const mockTerminatorRobot: RobotStructure = {
   id: "744637g",
   name: "Terminator",
   url: "jlbhjl",
-  stats: {
+  specs: {
     speed: 1,
     endurance: 1,
     creationDate: "",
